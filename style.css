@@ -1,0 +1,37 @@
+<style>
+    .hero-section {
+      background: url('b8dbdc36-35fa-43ef-b72b-ae884987ed4b.png') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      color: black;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: normal;
+    }
+  </style>
